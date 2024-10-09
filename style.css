@@ -1,0 +1,96 @@
+body {
+    background-color:#FFC0CB; /* Cor de fundo rosa */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    background-color: #DB7093;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+h2{
+    
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    display: block;
+    margin: 20px 0; /* Espaço entre o carrossel e o header/footer */
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.carousel-images img {
+    width: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+footer {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 400px;
+    top: 30px
+}
+
+#topo{
+    display: block;
+    margin: 20px;
+    font-size: 25px;
+}
+
+#home{
+    margin: 0 10px;
+}
+
+#profissionais{
+    margin: 0 10px;
+}
+
+#contato{
+    margin: 0 10px;
+}
